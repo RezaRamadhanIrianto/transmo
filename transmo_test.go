@@ -1,4 +1,4 @@
-package main
+package transmo
 
 import (
 	"github.com/go-playground/assert"
