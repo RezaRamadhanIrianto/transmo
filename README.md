@@ -28,6 +28,7 @@ type FakeModel struct {
 
 
 model := Model{
+ Id: "Id",
  Title: "Title",
 }
 fakeModel := FakeModel{}
