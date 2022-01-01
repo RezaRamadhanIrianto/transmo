@@ -14,6 +14,19 @@ $ go get -u github.com/rezaramadhanirianto/transmo
 ## How to use it
 
 ````go
+type Model struct {
+	Id          string `transmo:"ignore"` // this will ignore transmo to this field to copy
+	Title       string
+	Description string
+}
+
+type FakeModel struct {
+	Id          string
+	Title       string
+	Description string
+}
+
+
 model := Model{
  Title: "Title",
 }
