@@ -15,7 +15,7 @@ $ go get -u github.com/rezaramadhanirianto/transmo
 
 ````go
 type Model struct {
-	Id          string `transmo:"ignore"` // this will ignore transmo to this field to copy
+	Id          string `transmo:"ignore"` // this will ignore transmo to copy this field
 	Title       string
 	Description string
 }
