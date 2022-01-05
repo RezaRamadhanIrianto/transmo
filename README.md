@@ -11,7 +11,7 @@ To install Transmo package, you need to install Go and set your Go workspace fir
 $ go get -u github.com/rezaramadhanirianto/transmo
 ```
 
-## How to use it
+## How to use it 
 
 ````go
 type Model struct {
