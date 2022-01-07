@@ -12,7 +12,7 @@ $ go get -u github.com/rezaramadhanirianto/transmo
 ```
 
 ## How to use it 
-
+ 
 ````go
 type Model struct {
 	Id          string `transmo:"ignore"` // this will ignore transmo to copy this field
