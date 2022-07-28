@@ -1,5 +1,5 @@
 # Transmo
-Transmo is a Go library for transform model into another model base on struct. This library detect your field name to copy that into another model. Basically this library just use reflection to copy model and read field and tag.
+Transmo is a Go library for transform model into another model base on struct. This library detect your field name to copy that into another model. Basically this library just use reflection to copy model to another model and read field and tag.
  
 ## Installation
  
